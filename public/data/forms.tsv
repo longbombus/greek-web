@@ -1,0 +1,4 @@
+id	lexeme_id	form	features	note_en	note_ru
+fm_grafo_1sg_pres	lx_grafo	γράφω	Person=1|Number=Sing|Tense=Pres		
+fm_grafeis_2sg_pres	lx_grafo	γράφεις	Person=2|Number=Sing|Tense=Pres		
+fm_egrapsa_1sg_past	lx_grafo	έγραψα	Person=1|Number=Sing|Tense=Past|Aspect=Perf	Notice the augment and the stem alternation γραφ- → γραψ-.	Обрати внимание на аугмент и изменение основы γραφ- → γραψ-.
