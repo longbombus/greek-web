@@ -143,7 +143,7 @@ function renderSection(title, children) {
 function renderRelationCard(title, operations, note, onClick) {
   const card = document.createElement(onClick ? 'button' : 'div');
   card.className = 'relation-card';
-  if (card instanceof HTMLButtonElement) card.type = 'button';
+  if (onClick) card.setAttribute('type', 'button');
 
   const heading = document.createElement('strong');
   heading.textContent = title;
