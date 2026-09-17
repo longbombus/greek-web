@@ -1,0 +1,4 @@
+id	language	lemma	pos	features	gloss_en	gloss_ru	note_en	note_ru
+lx_grafo	el	γράφω	VERB		to write	писать	A central verb in a large word family related to writing.	Базовый глагол большого семейства слов, связанных с письмом.
+lx_perigrafo	el	περιγράφω	VERB		to describe	описывать	Derived from γράφω with περι-.	Образовано от γράφω с помощью περι-.
+lx_grafi	el	γραφή	NOUN	Gender=Fem	writing; script	письмо; написание	A noun related to the act or result of writing.	Существительное, связанное с действием или результатом письма.
