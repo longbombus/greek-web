@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #202124;
+  background: #f6f7f9;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input { font: inherit; }
+
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+}
+
+.sidebar {
+  padding: 24px;
+  border-right: 1px solid #dfe1e5;
+  background: white;
+}
+
+.sidebar h1 { margin: 0 0 4px; }
+.muted { color: #6b7280; }
+.field { display: grid; gap: 6px; margin: 24px 0 12px; }
+.field input { padding: 10px 12px; border: 1px solid #cfd4dc; border-radius: 8px; }
+.lexeme-list { display: grid; gap: 6px; }
+
+.lexeme {
+  text-align: left;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: transparent;
+  cursor: pointer;
+}
+.lexeme:hover, .lexeme.active { background: #eef2f7; }
+
+.content { padding: 24px 32px 64px; max-width: 900px; width: 100%; }
+.toolbar { display: flex; gap: 6px; justify-content: flex-end; }
+.toolbar button { padding: 6px 10px; }
+.content h2 { font-size: 38px; margin-bottom: 4px; }
+.section { margin-top: 32px; }
+
+.relation-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: 1px solid #dfe1e5;
+  border-radius: 10px;
+  background: white;
+  color: inherit;
+}
+button.relation-card { cursor: pointer; }
+button.relation-card:hover { border-color: #9aa2af; }
+.operations { margin-top: 8px; color: #525866; }
+.operation { margin-top: 4px; }
+.relation-card p { margin-bottom: 0; }
+
+@media (max-width: 720px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { border-right: 0; border-bottom: 1px solid #dfe1e5; }
+}
